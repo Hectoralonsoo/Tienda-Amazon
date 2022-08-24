@@ -1,0 +1,11 @@
+.contenedorPrincipal{
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+    border-radius: 20%;
+    background-color: aquamarine;
+}
+
+.imagen{
+    width: 100px;
+}

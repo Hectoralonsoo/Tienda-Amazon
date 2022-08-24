@@ -1,6 +1,7 @@
 import style from "../styles/Menu.module.css";
 import Link from "next/link";
 
+
 export default function(){
   return(
     <nav className={style.menu}>

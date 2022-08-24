@@ -26,7 +26,7 @@ export default function(){
             <ul className={style.menuVertical}>
           <Link href="/hogar/cocina-comedor"><li className={style.listItems}><a>Cocina y comedor</a></li></Link>
             <Link href="/hogar/dormitorio-salon"><li className={style.listItems}><a>Dormitorio y salón</a></li></Link>
-            <Link href="/hogar/baño"><li className={style.listItems}><a>Baño</a></li></Link>
+            <Link href="/hogar/aseo"><li className={style.listItems}><a>Baño</a></li></Link>
             <Link href="/hogar/jardin"><li className={style.listItems}><a>Jardín</a></li></Link>
             </ul>
         </div>

@@ -1,13 +1,36 @@
 .contenedorPrincipal{
-    padding: 20px;
+    padding: 10px;
+    margin-top: 50px;
     text-align: center;
     width: 40%;
-    border-radius: 20%;
-    background-color: aquamarine;
+    border-radius: 25px;
+    background-color: rgb(224, 224, 224);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
-
+.contenedorPrincipal:hover{
+    transition: all 1s;
+    transform:scale(1.05);
+    
+}
 .imagen{
     width: 400px;
+}
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.contenedorMasInfo{
+    padding: 15px 10px 15px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(177, 176, 176);
+}
+.contenedorAmazon{
+    padding: 15px 10px 15px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(177, 176, 176);
 }

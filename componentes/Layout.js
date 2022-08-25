@@ -2,7 +2,7 @@ import Head from "next/head"
 import Menu from "./Menu"
 import Style from "../styles/Layouts.module.css"
 
-export default function Layout ({children,title}) {
+export default function Layout ({children, title}) {
     return (
         <div>
            <Head>

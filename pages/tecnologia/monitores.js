@@ -1,3 +1,4 @@
+import Carrusel from "../../componentes/Carrusel";
 import Layout from "../../componentes/Layout"
 import Productos from "../../componentes/Productos"
 
@@ -19,6 +20,7 @@ import Productos from "../../componentes/Productos"
             nombre="Monitor Benq"
             imagen="../../imagenes/Monitor-Benq-Mobiuz.png"
         />
+        
        </div>
        <style jsx>{`
         .contenedorPrincipal{

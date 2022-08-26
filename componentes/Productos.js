@@ -13,11 +13,11 @@ export default function Productos(props) {
             <div className={Style.contenedorBotones}>
                 <div className={Style.contenedorMasInfo}>
                     <Link href="#"> 
-                        <a>{props.nombre}</a>
+                        <a className={Style.masInfoBoton}>+INFO</a>
                     </Link>
                 </div>
                 <div className={Style.contenedorAmazon}>
-                    <a href="https://amzn.eu/d/2RRCB8z">Ir a Amazon</a>
+                    <a className={Style.botonIrAmazon} href="https://amzn.eu/d/2RRCB8z" target="_blank">Ir a Amazon</a>
                 </div>
             </div>
         </div>

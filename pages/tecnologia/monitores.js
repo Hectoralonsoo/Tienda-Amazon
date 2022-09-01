@@ -1,4 +1,4 @@
-import Carrusel from "../../componentes/Carrusel";
+
 import Layout from "../../componentes/Layout"
 import Productos from "../../componentes/Productos"
 
